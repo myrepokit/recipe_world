@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Suggest a Recipe</title><link rel="stylesheet" href="assets/styles.css"></head><body>
+  <header class="site-header"><h1>RECIPE WORLD</h1><nav><a href="index.html">HOME</a><a href="recipe-list.html">RECIPES</a><a href="suggest.html">SUGGEST</a></nav></header>
+  <main class="container"><section class="card"><h2>SUGGEST</h2>
+      <form id="suggestForm">
+        <label for="sname">Recipe Name*:</label><input id="sname" required type="text">
+        <label for="singredients">Ingredients*:</label><textarea id="singredients" required></textarea>
+        <label for="syourname">Your Name*:</label><input id="syourname" required type="text">
+        <label for="syouremail">Your Email*:</label><input id="syouremail" required type="email">
+        <label><input id="agree" type="checkbox"> Agree with T&amp;C</label>
+        <button id="submitSuggest" class="button" type="submit">Click To Submit</button>
+      </form>
+      <p><small>Initially the submit button is disabled. It becomes enabled after checking the checkbox. Submitting stores the suggestion locally and simulates sending an email.</small></p>
+    </section></main>
+  <footer class="site-footer">Copyright 2023 - RECIPE WORLD - Kapil Raut</footer>
+  <script src="assets/script.js"></script></body></html>
